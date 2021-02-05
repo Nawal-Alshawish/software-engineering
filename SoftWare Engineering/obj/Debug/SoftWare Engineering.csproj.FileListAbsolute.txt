@@ -58,3 +58,6 @@ C:\Users\Flower\Desktop\التطبيق\SoftWare Engineering\SoftWare Engineering
 C:\software_engineering\SoftWare Engineering\bin\Debug\SoftWare Engineering.exe.config
 C:\software_engineering\SoftWare Engineering\obj\Debug\SoftWare Engineering.exe
 C:\software_engineering\SoftWare Engineering\obj\Debug\SoftWare Engineering.pdb
+C:\Users\Taghreed_Abdullah\Desktop\Software\software-engineering\SoftWare Engineering\bin\Debug\SoftWare Engineering.exe.config
+C:\Users\Taghreed_Abdullah\Desktop\Software\software-engineering\SoftWare Engineering\obj\Debug\SoftWare Engineering.exe
+C:\Users\Taghreed_Abdullah\Desktop\Software\software-engineering\SoftWare Engineering\obj\Debug\SoftWare Engineering.pdb

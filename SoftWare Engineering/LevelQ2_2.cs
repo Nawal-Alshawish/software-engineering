@@ -27,14 +27,16 @@ namespace SoftWare_Engineering
         {
             if (ANSWER1.Checked == true && ANSWER2.Checked == false && ANSWER3.Checked == false)
             {
-                counter++;
-                COUNTER.Text = counter.ToString();
+                Function.counter++;
+
+                COUNTER.Text = Function.counter.ToString();
 
             }
             else if (ANSWER1.Checked == false && ANSWER2.Checked == true && ANSWER3.Checked == false)
             {
-                counter++;
-                COUNTER.Text = counter.ToString();
+                Function.counter++;
+
+                COUNTER.Text = Function.counter.ToString();
 
             }
             else if (ANSWER1.Checked == false && ANSWER2.Checked == false && ANSWER3.Checked == true)
@@ -49,8 +51,7 @@ namespace SoftWare_Engineering
         private void label1_Click(object sender, EventArgs e)
         {
 
-            Levels L = new Levels();
-            L.Show();
+            Function.Undo();
             this.Hide();
         }
     }
