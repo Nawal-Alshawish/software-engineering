@@ -41,9 +41,7 @@ namespace SoftWare_Engineering
             }
             else if (ANSWER1.Checked == false && ANSWER2.Checked == false && ANSWER3.Checked == true)
             {
-                STAR1.ImageIndex = 1;
-                STAR2.ImageIndex = 1;
-                STAR3.ImageIndex = 1;
+                star();
                 MessageBox.Show(" The Level Two has been completed ");
                 Levels L = new Levels();
                 L.Show();
@@ -51,7 +49,13 @@ namespace SoftWare_Engineering
                 L.level_3.Enabled = true;
             }
         }
+        public void star()
+        {
 
+            STAR1.ImageIndex = 1;
+            STAR2.ImageIndex = 1;
+            STAR3.ImageIndex = 1;
+        }
         private void label1_Click(object sender, EventArgs e)
         {
 

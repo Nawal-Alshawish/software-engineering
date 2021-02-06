@@ -43,16 +43,20 @@ namespace SoftWare_Engineering
             }
             else if (ANSWER1.Checked == false && ANSWER2.Checked == false && ANSWER3.Checked == true)
             {
-                STAR1.ImageIndex = 1;
-                STAR2.ImageIndex = 1;
-                STAR3.ImageIndex = 1;
+                star();
                 MessageBox.Show(" The Level Three has been completed ");
                 Form1 f = new Form1();
                 f.Show();
                 this.Hide();
             }
         }
+        public void star()
+        {
 
+            STAR1.ImageIndex = 1;
+            STAR2.ImageIndex = 1;
+            STAR3.ImageIndex = 1;
+        }
         private void LevelQ3_3_Load(object sender, EventArgs e)
         {
 
