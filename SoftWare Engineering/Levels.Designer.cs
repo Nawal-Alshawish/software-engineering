@@ -35,8 +35,9 @@
             this.level_2 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
+            this.label3 = new System.Windows.Forms.Label();
+            this.level4 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
@@ -57,9 +58,9 @@
             this.level_3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.level_3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.level_3.Font = new System.Drawing.Font("Microsoft YaHei", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.level_3.Location = new System.Drawing.Point(7, 329);
+            this.level_3.Location = new System.Drawing.Point(30, 329);
             this.level_3.Name = "level_3";
-            this.level_3.Size = new System.Drawing.Size(272, 54);
+            this.level_3.Size = new System.Drawing.Size(234, 54);
             this.level_3.TabIndex = 8;
             this.level_3.Text = "LEVEL3";
             this.level_3.UseVisualStyleBackColor = false;
@@ -101,16 +102,6 @@
             this.label2.TabIndex = 10;
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
-            // label3
-            // 
-            this.label3.ImageKey = "long_arrow_left_26px.png";
-            this.label3.ImageList = this.imageList1;
-            this.label3.Location = new System.Drawing.Point(4, 9);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(62, 30);
-            this.label3.TabIndex = 11;
-            this.label3.Click += new System.EventHandler(this.label3_Click);
-            // 
             // imageList1
             // 
             this.imageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList1.ImageStream")));
@@ -142,12 +133,36 @@
             this.imageList1.Images.SetKeyName(24, "long_arrow_left_26px.png");
             this.imageList1.Images.SetKeyName(25, "long_arrow_left_26px.png");
             // 
+            // label3
+            // 
+            this.label3.ImageKey = "long_arrow_left_26px.png";
+            this.label3.ImageList = this.imageList1;
+            this.label3.Location = new System.Drawing.Point(4, 9);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(62, 30);
+            this.label3.TabIndex = 11;
+            this.label3.Click += new System.EventHandler(this.label3_Click);
+            // 
+            // level4
+            // 
+            this.level4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.level4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.level4.Font = new System.Drawing.Font("Microsoft YaHei", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.level4.Location = new System.Drawing.Point(12, 389);
+            this.level4.Name = "level4";
+            this.level4.Size = new System.Drawing.Size(270, 54);
+            this.level4.TabIndex = 12;
+            this.level4.Text = "LEVEL4";
+            this.level4.UseVisualStyleBackColor = false;
+            this.level4.Click += new System.EventHandler(this.level4_Click);
+            // 
             // Levels
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.ClientSize = new System.Drawing.Size(294, 471);
+            this.Controls.Add(this.level4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -171,5 +186,6 @@
         public System.Windows.Forms.Button level_2;
         private System.Windows.Forms.ImageList imageList1;
         private System.Windows.Forms.Label label3;
+        public System.Windows.Forms.Button level4;
     }
 }

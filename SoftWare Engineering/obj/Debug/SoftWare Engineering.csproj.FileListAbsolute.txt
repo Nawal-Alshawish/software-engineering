@@ -64,3 +64,6 @@ C:\Users\Taghreed_Abdullah\Desktop\Software\software-engineering\SoftWare Engine
 C:\Users\عصرالتقنية\Desktop\ff\software-engineering\SoftWare Engineering\bin\Debug\SoftWare Engineering.exe.config
 C:\Users\عصرالتقنية\Desktop\ff\software-engineering\SoftWare Engineering\obj\Debug\SoftWare Engineering.exe
 C:\Users\عصرالتقنية\Desktop\ff\software-engineering\SoftWare Engineering\obj\Debug\SoftWare Engineering.pdb
+C:\Users\TOSHIBA\Desktop\software engneer\software-engineering\SoftWare Engineering\bin\Debug\SoftWare Engineering.exe.config
+C:\Users\TOSHIBA\Desktop\software engneer\software-engineering\SoftWare Engineering\obj\Debug\SoftWare Engineering.exe
+C:\Users\TOSHIBA\Desktop\software engneer\software-engineering\SoftWare Engineering\obj\Debug\SoftWare Engineering.pdb

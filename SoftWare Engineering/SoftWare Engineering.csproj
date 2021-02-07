@@ -107,6 +107,12 @@
     <Compile Include="LevelQ3_3.Designer.cs">
       <DependentUpon>LevelQ3_3.cs</DependentUpon>
     </Compile>
+    <Compile Include="LevelQ4_1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LevelQ4_1.Designer.cs">
+      <DependentUpon>LevelQ4_1.cs</DependentUpon>
+    </Compile>
     <Compile Include="Levels.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -144,6 +150,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="LevelQ3_3.resx">
       <DependentUpon>LevelQ3_3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LevelQ4_1.resx">
+      <DependentUpon>LevelQ4_1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Levels.resx">
       <DependentUpon>Levels.cs</DependentUpon>

@@ -49,5 +49,12 @@ namespace SoftWare_Engineering
             f.Show();
             this.Hide();
         }
+
+        private void level4_Click(object sender, EventArgs e)
+        {
+            LevelQ4_1 l = new LevelQ4_1();
+            l.Show();
+            this.Hide();
+        }
     }
 }
