@@ -45,6 +45,7 @@ namespace SoftWare_Engineering
             {
                 star();
                 MessageBox.Show(" The Level Three has been completed ");
+                Function.HowDigree(Function.counter);
                 Form1 f = new Form1();
                 f.Show();
                 this.Hide();
