@@ -19,7 +19,7 @@ namespace SoftWare_Engineering
 
         private void label1_Click(object sender, EventArgs e)
         {
-
+            //exit
             Function.Undo();
             this.Hide();
         }
