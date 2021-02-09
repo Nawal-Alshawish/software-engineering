@@ -70,3 +70,6 @@ C:\Users\TOSHIBA\Desktop\software engneer\software-engineering\SoftWare Engineer
 C:\Users\Leno\Desktop\mmmm\software-engineering\SoftWare Engineering\bin\Debug\SoftWare Engineering.exe.config
 C:\Users\Leno\Desktop\mmmm\software-engineering\SoftWare Engineering\obj\Debug\SoftWare Engineering.exe
 C:\Users\Leno\Desktop\mmmm\software-engineering\SoftWare Engineering\obj\Debug\SoftWare Engineering.pdb
+C:\Users\Al-Hossam\Desktop\mmm\software-engineering\SoftWare Engineering\bin\Debug\SoftWare Engineering.exe.config
+C:\Users\Al-Hossam\Desktop\mmm\software-engineering\SoftWare Engineering\obj\Debug\SoftWare Engineering.exe
+C:\Users\Al-Hossam\Desktop\mmm\software-engineering\SoftWare Engineering\obj\Debug\SoftWare Engineering.pdb

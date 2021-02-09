@@ -169,6 +169,9 @@
     <EmbeddedResource Include="LevelQ4_2.resx">
       <DependentUpon>LevelQ4_2.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="LevelQ4_3.resx">
+      <DependentUpon>LevelQ4_3.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Levels.resx">
       <DependentUpon>Levels.cs</DependentUpon>
     </EmbeddedResource>
