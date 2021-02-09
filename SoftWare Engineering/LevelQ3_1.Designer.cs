@@ -31,7 +31,6 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LevelQ3_1));
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
-            this.label1 = new System.Windows.Forms.Label();
             this.QUSTION = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.LA2 = new System.Windows.Forms.Label();
@@ -46,6 +45,7 @@
             this.STAR3 = new System.Windows.Forms.Label();
             this.STAR2 = new System.Windows.Forms.Label();
             this.STAR1 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -58,16 +58,6 @@
             this.imageList1.Images.SetKeyName(2, "icons8_left_48px.png");
             this.imageList1.Images.SetKeyName(3, "long_arrow_left_26px.png");
             // 
-            // label1
-            // 
-            this.label1.ImageIndex = 3;
-            this.label1.ImageList = this.imageList1;
-            this.label1.Location = new System.Drawing.Point(8, 9);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(58, 24);
-            this.label1.TabIndex = 32;
-            this.label1.Click += new System.EventHandler(this.label1_Click);
-            // 
             // QUSTION
             // 
             this.QUSTION.BackColor = System.Drawing.Color.White;
@@ -77,6 +67,7 @@
             this.QUSTION.Size = new System.Drawing.Size(291, 62);
             this.QUSTION.TabIndex = 46;
             this.QUSTION.Text = "Q1 : What Functions / actions the system does ?";
+            this.QUSTION.Click += new System.EventHandler(this.QUSTION_Click);
             // 
             // groupBox1
             // 
@@ -92,6 +83,7 @@
             this.groupBox1.Size = new System.Drawing.Size(292, 123);
             this.groupBox1.TabIndex = 47;
             this.groupBox1.TabStop = false;
+            this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
             // LA2
             // 
@@ -102,6 +94,7 @@
             this.LA2.Size = new System.Drawing.Size(21, 24);
             this.LA2.TabIndex = 5;
             this.LA2.Text = "2";
+            this.LA2.Click += new System.EventHandler(this.LA2_Click);
             // 
             // LA3
             // 
@@ -112,6 +105,7 @@
             this.LA3.Size = new System.Drawing.Size(21, 24);
             this.LA3.TabIndex = 6;
             this.LA3.Text = "3";
+            this.LA3.Click += new System.EventHandler(this.LA3_Click);
             // 
             // lA1
             // 
@@ -122,6 +116,7 @@
             this.lA1.Size = new System.Drawing.Size(21, 24);
             this.lA1.TabIndex = 4;
             this.lA1.Text = "1";
+            this.lA1.Click += new System.EventHandler(this.lA1_Click);
             // 
             // ANSWER3
             // 
@@ -134,6 +129,7 @@
             this.ANSWER3.TabStop = true;
             this.ANSWER3.Text = "Data Flow Design ";
             this.ANSWER3.UseVisualStyleBackColor = false;
+            this.ANSWER3.CheckedChanged += new System.EventHandler(this.ANSWER3_CheckedChanged);
             // 
             // ANSWER2
             // 
@@ -147,6 +143,7 @@
             this.ANSWER2.TabStop = true;
             this.ANSWER2.Text = "Structured Programming";
             this.ANSWER2.UseVisualStyleBackColor = false;
+            this.ANSWER2.CheckedChanged += new System.EventHandler(this.ANSWER2_CheckedChanged);
             // 
             // ANSWER1
             // 
@@ -187,6 +184,7 @@
             this.label8.Size = new System.Drawing.Size(156, 23);
             this.label8.TabIndex = 49;
             this.label8.Text = "Number of Counter :";
+            this.label8.Click += new System.EventHandler(this.label8_Click);
             // 
             // COUNTER
             // 
@@ -198,6 +196,7 @@
             this.COUNTER.Size = new System.Drawing.Size(21, 24);
             this.COUNTER.TabIndex = 50;
             this.COUNTER.Text = "0";
+            this.COUNTER.Click += new System.EventHandler(this.COUNTER_Click);
             // 
             // STAR3
             // 
@@ -207,6 +206,7 @@
             this.STAR3.Name = "STAR3";
             this.STAR3.Size = new System.Drawing.Size(35, 23);
             this.STAR3.TabIndex = 59;
+            this.STAR3.Click += new System.EventHandler(this.STAR3_Click);
             // 
             // STAR2
             // 
@@ -216,6 +216,7 @@
             this.STAR2.Name = "STAR2";
             this.STAR2.Size = new System.Drawing.Size(35, 23);
             this.STAR2.TabIndex = 58;
+            this.STAR2.Click += new System.EventHandler(this.STAR2_Click);
             // 
             // STAR1
             // 
@@ -225,6 +226,17 @@
             this.STAR1.Name = "STAR1";
             this.STAR1.Size = new System.Drawing.Size(35, 23);
             this.STAR1.TabIndex = 57;
+            this.STAR1.Click += new System.EventHandler(this.STAR1_Click);
+            // 
+            // label1
+            // 
+            this.label1.ImageIndex = 3;
+            this.label1.ImageList = this.imageList1;
+            this.label1.Location = new System.Drawing.Point(8, 9);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(58, 24);
+            this.label1.TabIndex = 32;
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // LevelQ3_1
             // 
@@ -245,6 +257,7 @@
             this.Name = "LevelQ3_1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "LevelQ3_1";
+            this.Load += new System.EventHandler(this.LevelQ3_1_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);

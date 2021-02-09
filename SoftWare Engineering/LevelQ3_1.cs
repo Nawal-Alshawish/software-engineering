@@ -24,10 +24,7 @@ namespace SoftWare_Engineering
         }
 
         private void label1_Click(object sender, EventArgs e)
-        {
-
-            Function.Undo();
-            this.Hide();
+        { 
         }
 
         private void BOK_Click(object sender, EventArgs e)
@@ -54,6 +51,71 @@ namespace SoftWare_Engineering
 
                 COUNTER.Text = Function.counter.ToString();
             }
+        }
+
+        private void QUSTION_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lA1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ANSWER2_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void LA2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void LA3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ANSWER3_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void COUNTER_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label8_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void LevelQ3_1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void STAR1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void STAR2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void STAR3_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

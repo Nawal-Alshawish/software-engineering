@@ -10,19 +10,25 @@ using System.Windows.Forms;
 
 namespace SoftWare_Engineering
 {
-    public partial class LevelQ4_1 : Form
+    public partial class LevelQ4_2 : Form
     {
-        public LevelQ4_1()
+        public LevelQ4_2()
         {
             InitializeComponent();
         }
 
+        private void STAR3_Click(object sender, EventArgs e)
+        {
+
+        }
+
         private void BOK_Click(object sender, EventArgs e)
         {
+
             if (ANSWER1.Checked == true && ANSWER2.Checked == false && ANSWER3.Checked == false)
             {
 
-                LevelQ4_2 l = new LevelQ4_2();
+                LevelQ4_3 l = new LevelQ4_3();
                 l.Show();
                 this.Hide();
 
@@ -41,6 +47,13 @@ namespace SoftWare_Engineering
 
                 COUNTER.Text = Function.counter.ToString();
             }
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+            Function.Undo();
+            this.Hide();
         }
     }
 }

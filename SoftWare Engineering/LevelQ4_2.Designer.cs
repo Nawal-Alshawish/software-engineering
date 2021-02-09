@@ -1,6 +1,6 @@
 ﻿namespace SoftWare_Engineering
 {
-    partial class LevelQ4_1
+    partial class LevelQ4_2
     {
         /// <summary>
         /// Required designer variable.
@@ -29,39 +29,57 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LevelQ4_1));
-            this.BOK = new System.Windows.Forms.Button();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LevelQ4_2));
+            this.imageList1 = new System.Windows.Forms.ImageList(this.components);
+            this.QUSTION = new System.Windows.Forms.Label();
+            this.ANSWER1 = new System.Windows.Forms.RadioButton();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.LA2 = new System.Windows.Forms.Label();
             this.LA3 = new System.Windows.Forms.Label();
             this.lA1 = new System.Windows.Forms.Label();
             this.ANSWER3 = new System.Windows.Forms.RadioButton();
             this.ANSWER2 = new System.Windows.Forms.RadioButton();
-            this.ANSWER1 = new System.Windows.Forms.RadioButton();
             this.COUNTER = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.QUSTION = new System.Windows.Forms.Label();
+            this.BOK = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             this.STAR3 = new System.Windows.Forms.Label();
             this.STAR2 = new System.Windows.Forms.Label();
             this.STAR1 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // BOK
+            // imageList1
             // 
-            this.BOK.BackColor = System.Drawing.Color.White;
-            this.BOK.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BOK.Font = new System.Drawing.Font("Times New Roman", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BOK.ForeColor = System.Drawing.SystemColors.InfoText;
-            this.BOK.Location = new System.Drawing.Point(215, 216);
-            this.BOK.Name = "BOK";
-            this.BOK.Size = new System.Drawing.Size(83, 34);
-            this.BOK.TabIndex = 63;
-            this.BOK.Text = "Ok";
-            this.BOK.UseVisualStyleBackColor = false;
-            this.BOK.Click += new System.EventHandler(this.BOK_Click);
+            this.imageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList1.ImageStream")));
+            this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
+            this.imageList1.Images.SetKeyName(0, "icons8_star_48px.png");
+            this.imageList1.Images.SetKeyName(1, "icons8_christmas_star_48px.png");
+            this.imageList1.Images.SetKeyName(2, "icons8_left_48px.png");
+            this.imageList1.Images.SetKeyName(3, "long_arrow_left_26px.png");
+            // 
+            // QUSTION
+            // 
+            this.QUSTION.BackColor = System.Drawing.Color.White;
+            this.QUSTION.Font = new System.Drawing.Font("Times New Roman", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.QUSTION.Location = new System.Drawing.Point(2, 46);
+            this.QUSTION.Name = "QUSTION";
+            this.QUSTION.Size = new System.Drawing.Size(291, 62);
+            this.QUSTION.TabIndex = 63;
+            this.QUSTION.Text = "Q2 :  That is probably the most important idea in structurad programming ?";
+            // 
+            // ANSWER1
+            // 
+            this.ANSWER1.AutoSize = true;
+            this.ANSWER1.BackColor = System.Drawing.Color.White;
+            this.ANSWER1.Font = new System.Drawing.Font("Times New Roman", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ANSWER1.Location = new System.Drawing.Point(40, 20);
+            this.ANSWER1.Name = "ANSWER1";
+            this.ANSWER1.Size = new System.Drawing.Size(113, 26);
+            this.ANSWER1.TabIndex = 1;
+            this.ANSWER1.TabStop = true;
+            this.ANSWER1.Text = "Minmality";
+            this.ANSWER1.UseVisualStyleBackColor = false;
             // 
             // groupBox1
             // 
@@ -72,10 +90,10 @@
             this.groupBox1.Controls.Add(this.ANSWER2);
             this.groupBox1.Controls.Add(this.ANSWER1);
             this.groupBox1.Font = new System.Drawing.Font("Times New Roman", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(9, 69);
+            this.groupBox1.Location = new System.Drawing.Point(1, 111);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(292, 123);
-            this.groupBox1.TabIndex = 62;
+            this.groupBox1.TabIndex = 65;
             this.groupBox1.TabStop = false;
             // 
             // LA2
@@ -114,10 +132,10 @@
             this.ANSWER3.BackColor = System.Drawing.Color.White;
             this.ANSWER3.Location = new System.Drawing.Point(40, 91);
             this.ANSWER3.Name = "ANSWER3";
-            this.ANSWER3.Size = new System.Drawing.Size(118, 28);
+            this.ANSWER3.Size = new System.Drawing.Size(169, 28);
             this.ANSWER3.TabIndex = 3;
             this.ANSWER3.TabStop = true;
-            this.ANSWER3.Text = "Reliability";
+            this.ANSWER3.Text = "Standardization";
             this.ANSWER3.UseVisualStyleBackColor = false;
             // 
             // ANSWER2
@@ -127,34 +145,21 @@
             this.ANSWER2.Font = new System.Drawing.Font("Times New Roman", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ANSWER2.Location = new System.Drawing.Point(32, 52);
             this.ANSWER2.Name = "ANSWER2";
-            this.ANSWER2.Size = new System.Drawing.Size(99, 28);
+            this.ANSWER2.Size = new System.Drawing.Size(129, 28);
             this.ANSWER2.TabIndex = 2;
             this.ANSWER2.TabStop = true;
-            this.ANSWER2.Text = "Security";
+            this.ANSWER2.Text = "Abstraction";
             this.ANSWER2.UseVisualStyleBackColor = false;
-            // 
-            // ANSWER1
-            // 
-            this.ANSWER1.AutoSize = true;
-            this.ANSWER1.BackColor = System.Drawing.Color.White;
-            this.ANSWER1.Font = new System.Drawing.Font("Times New Roman", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ANSWER1.Location = new System.Drawing.Point(40, 20);
-            this.ANSWER1.Name = "ANSWER1";
-            this.ANSWER1.Size = new System.Drawing.Size(175, 26);
-            this.ANSWER1.TabIndex = 1;
-            this.ANSWER1.TabStop = true;
-            this.ANSWER1.Text = "Easy maintenance";
-            this.ANSWER1.UseVisualStyleBackColor = false;
             // 
             // COUNTER
             // 
             this.COUNTER.AutoSize = true;
             this.COUNTER.BackColor = System.Drawing.Color.White;
             this.COUNTER.Font = new System.Drawing.Font("Times New Roman", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.COUNTER.Location = new System.Drawing.Point(186, 279);
+            this.COUNTER.Location = new System.Drawing.Point(188, 331);
             this.COUNTER.Name = "COUNTER";
             this.COUNTER.Size = new System.Drawing.Size(21, 24);
-            this.COUNTER.TabIndex = 65;
+            this.COUNTER.TabIndex = 68;
             this.COUNTER.Text = "0";
             // 
             // label8
@@ -163,84 +168,82 @@
             this.label8.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label8.Font = new System.Drawing.Font("Times New Roman", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(9, 282);
+            this.label8.Location = new System.Drawing.Point(12, 332);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(156, 23);
-            this.label8.TabIndex = 64;
+            this.label8.TabIndex = 67;
             this.label8.Text = "Number of Counter :";
             // 
-            // QUSTION
+            // BOK
             // 
-            this.QUSTION.BackColor = System.Drawing.Color.White;
-            this.QUSTION.Font = new System.Drawing.Font("Times New Roman", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.QUSTION.Location = new System.Drawing.Point(7, 3);
-            this.QUSTION.Name = "QUSTION";
-            this.QUSTION.Size = new System.Drawing.Size(291, 62);
-            this.QUSTION.TabIndex = 61;
-            this.QUSTION.Text = "Q1 : What are the properties of good programming ?";
+            this.BOK.BackColor = System.Drawing.Color.White;
+            this.BOK.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BOK.Font = new System.Drawing.Font("Times New Roman", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BOK.ForeColor = System.Drawing.SystemColors.InfoText;
+            this.BOK.Location = new System.Drawing.Point(199, 262);
+            this.BOK.Name = "BOK";
+            this.BOK.Size = new System.Drawing.Size(83, 34);
+            this.BOK.TabIndex = 66;
+            this.BOK.Text = "Ok";
+            this.BOK.UseVisualStyleBackColor = false;
+            this.BOK.Click += new System.EventHandler(this.BOK_Click);
             // 
             // label1
             // 
             this.label1.ImageIndex = 3;
-            this.label1.Location = new System.Drawing.Point(8, -32);
+            this.label1.ImageList = this.imageList1;
+            this.label1.Location = new System.Drawing.Point(9, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(58, 24);
-            this.label1.TabIndex = 60;
-            // 
-            // imageList1
-            // 
-            this.imageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList1.ImageStream")));
-            this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
-            this.imageList1.Images.SetKeyName(0, "icons8_star_48px.png");
-            this.imageList1.Images.SetKeyName(1, "icons8_christmas_star_48px.png");
-            this.imageList1.Images.SetKeyName(2, "icons8_left_48px.png");
-            this.imageList1.Images.SetKeyName(3, "long_arrow_left_26px.png");
+            this.label1.TabIndex = 64;
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // STAR3
             // 
-            this.STAR3.ImageKey = "icons8_star_48px.png";
+            this.STAR3.ImageIndex = 0;
             this.STAR3.ImageList = this.imageList1;
-            this.STAR3.Location = new System.Drawing.Point(173, 380);
+            this.STAR3.Location = new System.Drawing.Point(173, 419);
             this.STAR3.Name = "STAR3";
             this.STAR3.Size = new System.Drawing.Size(35, 23);
-            this.STAR3.TabIndex = 68;
+            this.STAR3.TabIndex = 71;
+            this.STAR3.Click += new System.EventHandler(this.STAR3_Click);
             // 
             // STAR2
             // 
             this.STAR2.ImageIndex = 0;
             this.STAR2.ImageList = this.imageList1;
-            this.STAR2.Location = new System.Drawing.Point(140, 380);
+            this.STAR2.Location = new System.Drawing.Point(132, 419);
             this.STAR2.Name = "STAR2";
             this.STAR2.Size = new System.Drawing.Size(35, 23);
-            this.STAR2.TabIndex = 67;
+            this.STAR2.TabIndex = 70;
             // 
             // STAR1
             // 
             this.STAR1.ImageIndex = 0;
             this.STAR1.ImageList = this.imageList1;
-            this.STAR1.Location = new System.Drawing.Point(102, 380);
+            this.STAR1.Location = new System.Drawing.Point(91, 419);
             this.STAR1.Name = "STAR1";
             this.STAR1.Size = new System.Drawing.Size(35, 23);
-            this.STAR1.TabIndex = 66;
+            this.STAR1.TabIndex = 69;
             // 
-            // LevelQ4_1
+            // LevelQ4_2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.ClientSize = new System.Drawing.Size(309, 422);
-            this.Controls.Add(this.BOK);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.ClientSize = new System.Drawing.Size(294, 471);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.QUSTION);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.STAR3);
             this.Controls.Add(this.STAR2);
             this.Controls.Add(this.STAR1);
             this.Controls.Add(this.COUNTER);
             this.Controls.Add(this.label8);
-            this.Controls.Add(this.QUSTION);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.BOK);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "LevelQ4_1";
-            this.Text = "LevelQ4_1";
+            this.Name = "LevelQ4_2";
+            this.Text = "LevelQ4_2";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
@@ -250,21 +253,21 @@
 
         #endregion
 
-        private System.Windows.Forms.Button BOK;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.ImageList imageList1;
+        public System.Windows.Forms.Label QUSTION;
+        public System.Windows.Forms.RadioButton ANSWER1;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Label LA2;
         private System.Windows.Forms.Label LA3;
         private System.Windows.Forms.Label lA1;
         public System.Windows.Forms.RadioButton ANSWER3;
         public System.Windows.Forms.RadioButton ANSWER2;
-        public System.Windows.Forms.RadioButton ANSWER1;
         public System.Windows.Forms.Label STAR3;
         public System.Windows.Forms.Label STAR2;
         public System.Windows.Forms.Label STAR1;
         public System.Windows.Forms.Label COUNTER;
         private System.Windows.Forms.Label label8;
-        public System.Windows.Forms.Label QUSTION;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.ImageList imageList1;
+        private System.Windows.Forms.Button BOK;
     }
 }
